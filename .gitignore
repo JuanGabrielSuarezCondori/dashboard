@@ -1,0 +1,25 @@
+# Entorno y secretos
+.env
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+
+# Artefactos locales de trabajo (no necesarios en staging)
+Archivos usados.zip
+train.csv
+*.ipynb
+*.docx
+*.pdf
+
+# Modelos y datasets que app.py no carga en ejecución
+modelo_lgbm.pkl
+dataset_negocio_balanceado.csv
+heatmap_spearman.png
+
+# Sistema
+.DS_Store
+Thumbs.db
